@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>css box model</title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+            color: black;
+            font-family: arial;
+
+        }
+
+        .box {
+
+            background-color: white;
+            width: 400px;
+            margin: 100px auto;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px grey;
+            border: 5px solid black;
+        }
+
+
+
+        h1 {
+            color: navy;
+        }
+
+        p {
+            color: black
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: lightgreen;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: black
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button-hover {
+            background-color: red;
+        }
+
+        footer {
+            background-color: lightblue;
+            cplor: red;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        form {
+            background-color: lightyellow border-radius: 10px;
+            width: 300px margin:20px auto;
+            paddind: 20px;
+        }
+
+        input {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>web development</h1>
+
+        <p>i am learning web development</p>
+
+        <Nav>
+            <ul>
+
+                <li><a href="index.html">home</a></li>
+
+                <li><a href="about.html">salman</a></li>
+                <li> <a href="#">service</a></li>
+                <li><a href=" #">contect</a></li>
+            </ul>
+
+        </Nav>
+
+        <h1>welcome to web development</h1>
+        <ul>
+            <Li><img src="photo.jpg" alt="my photo" weidth="250"></li>
+        </ul>
+        <button onclick="alert('thank you for vist my website!')">
+            click me
+        </button>
+        <footer>
+            <p>2026 my website| all right reseved</p>
+        </footer>
+
+
+        <section>
+
+            <h2>about me</h2>
+            <p>
+                hello! my name is salman
+                iam learning web development.
+            </p>
+
+        </section>
+
+        <section>
+
+            <ul>
+                <li>web development</li>
+                <li>CSS & HTML</li>
+                <li>web designe</li>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>contect me</h2>
+            <p>Email:salmaankhann022@gmail.com</p>
+            <p>9503705931</p>
+
+        </section>
+
+        <h2>login</h2>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="enter your email">
+
+            <br><br>
+
+            <label>password</label>
+            <input type="password" placeholder="enter your pawssword">
+
+            <br><br>
+
+            <label>check box</label>
+            <input type="check box" placeholder="enter your message">
+            remember me
+
+            <br><br>
+
+            <a href="#">forget password?</a>
+
+            <ul>
+                <button type="button" onclick="alert('login button clicked!')">
+                    login
+                </button>
+
+            </ul>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
